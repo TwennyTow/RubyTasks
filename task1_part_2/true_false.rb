@@ -1,8 +1,8 @@
 def true_false(a)
   if( a > 0 && a < 5)
-      puts('Вірно');
+    puts('Вірно')
   else
-      puts('Невірно');
+    puts('Невірно')
   end
 end
 
