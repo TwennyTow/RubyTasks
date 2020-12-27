@@ -37,8 +37,8 @@ books = [
   ]
 
   
-  #puts "-------Sorted with price----------------------"
-  #puts books.sort_by{|n| n[:price] }
+  puts "-------Sorted with price----------------------"
+  puts books.sort_by{|n| n[:price] }
   puts "-------Sorted with tag 'ruby'-----------------"
-  puts books.select{|n| n[:tags].include?('ruby')}
+  puts books.select{|n| n[:tags].include?('ruby') if n[:tags] }
   puts "----------------------------------------------"
